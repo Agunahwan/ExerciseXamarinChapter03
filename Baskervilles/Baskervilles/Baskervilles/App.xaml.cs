@@ -10,7 +10,8 @@ namespace Baskervilles
         {
             //MainPage = new BaskervillesPage();
             //MainPage = new VariableFormattedTextPage();
-            MainPage = new VariableFormattedParagraphPage();
+            //MainPage = new VariableFormattedParagraphPage();
+            MainPage = new NamedFontSizesPage();
         }
 
         protected override void OnStart()
