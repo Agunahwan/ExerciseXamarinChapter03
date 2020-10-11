@@ -9,7 +9,8 @@ namespace Baskervilles
         public App()
         {
             //MainPage = new BaskervillesPage();
-            MainPage = new VariableFormattedTextPage();
+            //MainPage = new VariableFormattedTextPage();
+            MainPage = new VariableFormattedParagraphPage();
         }
 
         protected override void OnStart()
