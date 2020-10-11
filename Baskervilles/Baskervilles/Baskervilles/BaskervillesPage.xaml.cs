@@ -36,7 +36,9 @@ namespace Baskervilles
                 HorizontalTextAlignment = TextAlignment.Center,
                 VerticalTextAlignment = TextAlignment.Center,
                 BackgroundColor = Color.Yellow,
-                TextColor = Color.Blue
+                TextColor = Color.Blue,
+                FontSize = Device.GetNamedSize(NamedSize.Large, typeof(Label)),
+                FontAttributes = FontAttributes.Bold | FontAttributes.Italic
             };
 
             Padding = new Thickness(5, 20, 5, 5);
